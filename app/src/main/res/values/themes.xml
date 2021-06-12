@@ -1,0 +1,62 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="CarCleanTimeMainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#323232</item>
+        <item name="colorPrimaryDark">#191919</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">#DCAE85</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textColor">#B7D6A4</item>
+        <item name="buttonStyle">@style/CarCleanTimeButton</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#323232</item>
+        <item name="colorSecondaryVariant">#191919</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBarTabStyle</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="CCTimeDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:textSize">10pt</item>
+        <item name="android:textColor">#B7D6A4</item>
+        <item name="colorAccent">#DCAE85</item>
+        <item name="android:background">#191919</item>
+    </style>
+
+
+    <style name="CarCleanTimeRecycleView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#323232</item>
+        <item name="colorPrimaryDark">#191919</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">#f4511e</item>
+        <item name="android:textSize">10pt</item>
+        <item name="android:textColor">#191919</item>
+        <item name="buttonStyle">@style/CarCleanTimeButton</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#323232</item>
+        <item name="colorSecondaryVariant">#191919</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBarTabStyle</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="CarCleanTimeButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorAccent">#B7D6A4</item>
+        <item name="android:textColor">#191919</item>
+    </style>
+
+    <style name="MyActionBarTabStyle" parent="Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/ic_baseline_add_location_24</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+    </style>
+</resources>

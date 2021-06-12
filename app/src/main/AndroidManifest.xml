@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hedgehogSoft.carcleantime">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/CarCleanTimeMainTheme"
+        tools:replace="android:allowBackup">
+        <meta-data
+            android:name="com.rollbar.android.ACCESS_TOKEN"
+            android:value="97ab4a36d3ab4d179f98c1b289af262d" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name="com.hedgehogSoft.carcleantime.InitSettingsActivity"
+            android:theme="@style/CarCleanTimeMainTheme"></activity>
+        <activity
+            android:name="com.hedgehogSoft.carcleantime.MainActivity"
+            android:theme="@style/CarCleanTimeMainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
