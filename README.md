@@ -7,4 +7,6 @@ The original repository with the commit history was corrupted, for this reason t
 
 ### Video:
 
+https://youtu.be/Fd3rdMy5UAk
+
 [![VIDEO](https://img.youtube.com/vi/Fd3rdMy5UAk/0.jpg)](https://www.youtube.com/watch?v=Fd3rdMy5UAk)
